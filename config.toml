@@ -1,0 +1,19 @@
+baseURL = "https://learningazure.github.io/blog/"
+#baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Learning Azure"
+publishDir = "docs"
+themesDir = "themes"
+theme = "hyde"
+
+[params]
+  layoutReverse = true
+  description = "Architecture"
+
+[[menu.main]]
+    name = "Articles"
+    url = "#"
+
+[[menu.main]]
+    name = "Knowledge Base"
+    url = "#"

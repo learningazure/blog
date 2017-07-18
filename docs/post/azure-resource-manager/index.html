@@ -1,0 +1,78 @@
+	<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.25.1" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  
+  <title>Azure Resource Manager &middot; Learning Azure</title>
+  
+
+  
+  <link rel="stylesheet" href="https://learningazure.github.io/blog/css/poole.css">
+  <link rel="stylesheet" href="https://learningazure.github.io/blog/css/syntax.css">
+  <link rel="stylesheet" href="https://learningazure.github.io/blog/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Learning Azure" />
+</head>
+
+	<body class=" layout-reverse">
+		<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      
+        <h1>Learning Azure</h1>
+      
+      <p class="lead">
+       Architecture 
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      
+      
+        <li><a href="#"> Articles </a></li>
+      
+        <li><a href="#"> Knowledge Base </a></li>
+      
+    </ul>
+
+    <p>&copy; 2017. All rights reserved. </p>
+  </div>
+</div>
+
+
+		<div class="content container">
+			<div class="post">
+			 	<h1>Azure Resource Manager</h1>
+			  <span class="post-date">Tue, Jul 18, 2017</span>
+			      <p>Azure resource manager is the platform through which azure provisions resources. Resources can be provisioned using <code>Azure CLI, Azure Portal, Powershell or Azure resource manager templates</code>. Behind the scene, all these tools interact with azure resource manager platform to provision the resources.</p>
+
+<pre><code class="language-cs">public interface IAzure 
+{
+    void AzureResourceManager();
+    void AzureNetworking();
+}
+</code></pre>
+
+<p>Azure resource manager does not directly provision resources. It goes through azure resource providers to help it get the job done. Azure resource providers all the details related to the specific resource that needs to be provisioned. All resources within azure belong to a resource provider. For example storage is provided by Microsoft.AzureStorage, network related resources are provided by Microsoft.AzureNetworking etc.</p>
+
+<p><img src="http://via.placeholder.com/725x150/bf616a.jpg" alt="Image of something" /></p>
+
+			</div>
+
+			
+		</div>
+
+  </body>
+</html>

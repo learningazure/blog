@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Learning Azure</title>
+    <link>https://learningazure.github.io/blog/post/</link>
+    <description>Recent content in Posts on Learning Azure</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Jul 2017 14:19:32 -0700</lastBuildDate>
+    
+	<atom:link href="https://learningazure.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Azure Resource Manager</title>
+      <link>https://learningazure.github.io/blog/post/azure-resource-manager/</link>
+      <pubDate>Tue, 18 Jul 2017 14:19:32 -0700</pubDate>
+      
+      <guid>https://learningazure.github.io/blog/post/azure-resource-manager/</guid>
+      <description>Azure resource manager is the platform through which azure provisions resources. Resources can be provisioned using Azure CLI, Azure Portal, Powershell or Azure resource manager templates. Behind the scene, all these tools interact with azure resource manager platform to provision the resources.
+public interface IAzure { void AzureResourceManager(); void AzureNetworking(); }  Azure resource manager does not directly provision resources. It goes through azure resource providers to help it get the job done.</description>
+    </item>
+    
+  </channel>
+</rss>
